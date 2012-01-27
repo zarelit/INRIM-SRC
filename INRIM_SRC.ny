@@ -3,10 +3,7 @@
 ;type generate
 ;name "Segnale Orario SRC..."
 ;action "Generazione del segnale SRC..."
-;info "Una breve descrizione"
-
-;; Per maggiori informazioni consultare il sito dell'INRIM
-;; alla pagina http://www.inrim.it/res/tf/src_i.shtml
+;info "Generatore di segnale orario RAI-SRC.\nPer maggiori info visitare il sito dell'INRiM all'indirizzo http://www.inrim.it/res/tf/src_i.shtml\n\nPer utilizzare questo segnale in maniera corretta si deve fare in modo che l'inizio dell'ultimo\nsegnale acustico corrisponda all'inizio del minuto a cui il segnale fa riferimento;\nequivalentemente l'inizio del suono generato deve essere allineato con il secondo 52 del minuto precedente.\n\nPlug-in rilasciato con licenza GPL 2 da David Costa <david@zarel.net>.\nRealizzato per O.R.S.A. Officine Radiotecniche Società Anonima."
 
 ;; I controlli sono organizzati per tipo
 ;; Data - Ora - Avvisi
