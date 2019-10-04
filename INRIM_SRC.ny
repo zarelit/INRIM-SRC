@@ -12,7 +12,7 @@
 ;control anno "Anno" int "" 88 0 99
 ;control mese "Mese" int "" 4 1 12
 ;control giorno "Giorno" int "" 22 1 31
-;control settimana "Nome giorno" choice "Lun.,Mart.,Merc.,Giov.,Ven.,Sabato,Domenica" "Sabato"
+;control settimana "Nome del giorno" choice "Lun.,Mart.,Merc.,Giov.,Ven.,Sabato,Domenica" "Sabato"
 
 ;; Controlli impostazione orario
 ;control ore "Ora" int "" 19 0 23

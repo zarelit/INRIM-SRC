@@ -18,9 +18,7 @@ L'audio così generato si sostituirà alla selezione esistente o verrà creata u
 
 ## Licenza e feedback
 
-Il programma è interamente distribuito con licenza GPL2 il cui testo completo è reperibile al seguente indirizzo
-
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Il programma è interamente distribuito con licenza GPL2 il cui testo completo è reperibile [qui](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 Per suggerimenti e feedback generale potete scrivermi all'indirizzo <david@zarel.net>
 
