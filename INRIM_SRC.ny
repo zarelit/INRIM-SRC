@@ -12,7 +12,7 @@
 ;control anno "Anno" int "" 88 0 99
 ;control mese "Mese" int "" 4 1 12
 ;control giorno "Giorno" int "" 22 1 31
-;control settimana "Nome del giorno" choice "Lun.,Mart.,Merc.,Giov.,Ven.,Sabato,Domenica" "Sabato"
+;control settimana "Nome del giorno" choice "Lun.,Mar.,Mer.,Gio.,Ven.,Sab.,Dom." "Ven."
 
 ;; Controlli impostazione orario
 ;control ore "Ora" int "" 19 0 23
@@ -20,7 +20,7 @@
 ;control legale "Ora estiva (DST)" choice "Ora legale,Ora solare" "Ora solare"
 
 ;; Controlli sugli avvisi
-;control avviso-legale "Avviso cambio DST" choice "Nessun cambio nei prossimi 7 giorni,Previsto un cambio entro i prossimi 6 giorni,Previsto un cambio entro i prossimi 5 giorni,Previsto un cambio entro i prossimi 4 giorni,Previsto un cambio entro i prossimi 3 giorni,Previsto un cambio entro i prossimi 2 giorni,Previsto un cambio entro un giorno,Cambio all'ora solare (02.00)/legale(03.00) oggi" "Nessun cambio nei prossimi 7 giorni"
+;control avviso-legale "Avviso cambio DST" choice "Nessun cambio nei prossimi 7 giorni,Previsto un cambio entro i prossimi 6 giorni,Previsto un cambio entro i prossimi 5 giorni,Previsto un cambio entro i prossimi 4 giorni,Previsto un cambio entro i prossimi 3 giorni,Previsto un cambio entro i prossimi 2 giorni,Previsto un cambio entro un giorno,Cambio dall'ora solare (02.00) a quella legale (03.00) o viceversa oggi" "Nessun cambio nei prossimi 7 giorni"
 ;control avviso-intercalare "Avviso secondo intercalare" choice "Nessuno previsto,Anticipo di 1 secondo alla fine del mese,Ritardo di 1 secondo alla fine del mese" "Nessuno previsto"
 
 ;; Converte secondi in millisecondi

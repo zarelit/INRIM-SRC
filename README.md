@@ -24,4 +24,4 @@ Per suggerimenti e feedback generale potete scrivermi all'indirizzo <david@zarel
 
 ## Maggiori informazioni
 
-Per maggiori informazioni sul Segnale RAI Codificato è possibile visitare la [pagina su Wikipedia](https://it.wikipedia.org/wiki/Segnale_orario)
+Per maggiori informazioni sul Segnale RAI Codificato è possibile visitare la [pagina su Wikipedia](https://it.wikipedia.org/wiki/Segnale_orario) oppure una versione archiviata della [pagina ufficiale](https://web.archive.org/web/20161223104950/http://www.inrim.it:80/res/tf/src_i.shtml) dal sito web dell'INRiM.
