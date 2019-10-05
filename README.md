@@ -6,9 +6,7 @@ Il programma è un plug-in per Audacity che genera un segnale orario RAI valido,
 
 Per installare il plugin è sufficiente copiare il file `INRIM_SRC.ny` in una directory nota ad Audacious: in Linux, per installare il plug-in a un singolo utente il file va copiato nella directory `~/.audacity-files/plug-ins/` (creandola se non esiste).
 
-In caso di dubbio consultare il manuale di audacity a questo indirizzo:
-
-http://wiki.audacityteam.org/wiki/Download_Nyquist_Plugins#Installing_Plugins
+In caso di dubbio consultare la [pagina dedicata del manuale di Audacity](http://wiki.audacityteam.org/wiki/Download_Nyquist_Plugins#Installing_Plugins).
 
 ## Utilizzo
 
@@ -20,8 +18,10 @@ L'audio così generato si sostituirà alla selezione esistente o verrà creata u
 
 ## Licenza e feedback
 
-Il programma è interamente distribuito con licenza GPL2 il cui testo completo è reperibile al seguente indirizzo
-
-https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Il programma è interamente distribuito con licenza GPL2 il cui testo completo è reperibile [qui](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 Per suggerimenti e feedback generale potete scrivermi all'indirizzo <david@zarel.net>
+
+## Maggiori informazioni
+
+Per maggiori informazioni sul Segnale RAI Codificato è possibile visitare la [pagina su Wikipedia](https://it.wikipedia.org/wiki/Segnale_orario) oppure una versione archiviata della [pagina ufficiale](https://web.archive.org/web/20161223104950/http://www.inrim.it:80/res/tf/src_i.shtml) dal sito web dell'INRiM.

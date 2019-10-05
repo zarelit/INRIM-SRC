@@ -3,7 +3,7 @@
 ;type generate
 ;name "Segnale Orario SRC..."
 ;action "Generazione del segnale SRC..."
-;info "Generatore di segnale orario RAI-SRC.\nPer maggiori info visitare il sito dell'INRiM all'indirizzo http://www.inrim.it/res/tf/src_i.shtml\n\nPer utilizzare questo segnale in maniera corretta si deve fare in modo che l'inizio dell'ultimo segnale\nacustico corrisponda all'inizio del minuto successivo a cui il segnale fa riferimento;\nequivalentemente l'inizio del suono generato deve essere allineato con il secondo 52 del minuto corrente.\n\nPlug-in rilasciato con licenza GPL 2 da David Costa <david@zarel.net>.\nRealizzato per O.R.S.A. Officine Radiotecniche Società Anonima."
+;info "Generatore di segnale orario RAI-SRC.\nPer maggiori informazioni visitare la pagina dedicata su Wikipedia disponibile al seguente link: https://it.wikipedia.org/wiki/Segnale_orario\n\nPer utilizzare questo segnale in maniera corretta si deve fare in modo che l'inizio dell'ultimo segnale\nacustico corrisponda all'inizio del minuto successivo a cui il segnale fa riferimento;\nequivalentemente l'inizio del suono generato deve essere allineato con il secondo 52 del minuto corrente.\n\nPlug-in rilasciato con licenza GPL 2 da David Costa <david@zarel.net>.\nRealizzato per O.R.S.A. Officine Radiotecniche Società Anonima."
 
 ;; I controlli sono organizzati per tipo
 ;; Data - Ora - Avvisi
@@ -12,16 +12,16 @@
 ;control anno "Anno" int "" 88 0 99
 ;control mese "Mese" int "" 4 1 12
 ;control giorno "Giorno" int "" 22 1 31
-;control settimana "Nome giorno" choice "lunedì,martedì,mercoledì,giovedì,venerdì,sabato,domenica" "venerdì"
+;control settimana "Nome del giorno" choice "Lun.,Mar.,Mer.,Gio.,Ven.,Sab.,Dom." "Ven."
 
 ;; Controlli impostazione orario
 ;control ore "Ora" int "" 19 0 23
-;control minuti "Minuto" int "" 0 0 59
+;control minuti "Minuti" int "" 0 0 59
 ;control legale "Ora estiva (DST)" choice "Ora legale,Ora solare" "Ora solare"
 
 ;; Controlli sugli avvisi
-;control avviso-legale "Avviso cambio DST" choice "Nessun cambio nei prossimi 7 giorni,Previsto un cambio entro i prossimi 6 giorni,Previsto un cambio entro i prossimi 5 giorni,Previsto un cambio entro i prossimi 4 giorni,Previsto un cambio entro i prossimi 3 giorni,Previsto un cambio entro i prossimi 2 giorni,Previsto un cambio entro un giorno,Cambio all'ora solare (02.00)/legale(03.00) oggi" "Nessun cambio nei prossimi 7 giorni"
-;control avviso-intercalare "Avviso secondo intercalare" choice "Nessuno previsto,Anticipo di 1s a fine mese,Ritardo di 1s a fine mese" "Nessuno previsto"
+;control avviso-legale "Avviso cambio DST" choice "Nessun cambio nei prossimi 7 giorni,Previsto un cambio entro i prossimi 6 giorni,Previsto un cambio entro i prossimi 5 giorni,Previsto un cambio entro i prossimi 4 giorni,Previsto un cambio entro i prossimi 3 giorni,Previsto un cambio entro i prossimi 2 giorni,Previsto un cambio entro un giorno,Cambio dall'ora solare (02.00) a quella legale (03.00) o viceversa oggi" "Nessun cambio nei prossimi 7 giorni"
+;control avviso-intercalare "Avviso secondo intercalare" choice "Nessuno previsto,Anticipo di 1 secondo alla fine del mese,Ritardo di 1 secondo alla fine del mese" "Nessuno previsto"
 
 ;; Converte secondi in millisecondi
 (defun ms (value) (* 0.001 value))
@@ -69,7 +69,7 @@
   )
 
 ;; Modula una stringa binaria con FSK
-(defun fsk (stringa) 
+(defun fsk (stringa)
   (seqrep (i (length stringa))
 		  (render-char (char stringa i))
 		  )
@@ -209,4 +209,3 @@
   (s-rest (ms 1900))
   (beep)
   )
-
