@@ -2,11 +2,15 @@
 
 Il programma è un plug-in per Audacity che genera un segnale orario RAI valido, composto quindi dalla sequenza binaria (“trillo”) e dalla serie di segnali acustici che lo contraddistinguono.
 
+## Progetto archiviato
+Sono giunte molte idee e richieste per email e su GitHub e ringrazio tutti gli utenti, purtroppo le opzioni di Audacity + Nyquist sono molto limitate e sarebbe necessaria una riscrittura.
+Vi invito a provare `srcclock` che è una applicazione capace sia di generare che di decodificare l'SRC, la potete trovare qui: https://github.com/tornio/srcclock (o il fork https://github.com/boyska/srcclock che sistema la compilazione)
+
 ## Installazione
 
 Per installare il plugin è sufficiente copiare il file `INRIM_SRC.ny` in una directory nota ad Audacious: in Linux, per installare il plug-in a un singolo utente il file va copiato nella directory `~/.audacity-files/plug-ins/` (creandola se non esiste).
 
-In caso di dubbio consultare la [pagina dedicata del manuale di Audacity](http://wiki.audacityteam.org/wiki/Download_Nyquist_Plugins#Installing_Plugins).
+In caso di dubbio consultare la [pagina dedicata del manuale di Audacity](https://wiki.audacityteam.org/wiki/Download_Nyquist_Plugins#Installing_Plugins).
 
 ## Utilizzo
 
